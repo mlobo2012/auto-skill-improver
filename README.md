@@ -111,11 +111,34 @@ A binary eval can still be useless. The goal is not just yes/no questions — it
 
 ---
 
+## UX and Run Model
+
+The best UX for Auto Skill Improver is a **research-run workflow**, not a live dashboard.
+
+Users should stay in the loop through decision checkpoints:
+- baseline complete
+- benchmark saturated
+- mutation kept
+- regression detected
+- final summary ready
+
+Best default mode:
+- supervised batch run
+- baseline + 1-3 mutations + summary + human decision
+
+Best operational trigger:
+- run on skill changes, model changes, repeated failures, or dependency breakage
+- do not run blind timer-based optimization on everything
+
+Read:
+- `docs/UX-MODEL.md`
+- `docs/RUN-MODES.md`
+
 ## Repo Structure
 
 ```text
 skills/       — optimizer specs for different execution environments
-docs/         — limitations, triage, eval patterns, usage guidance
+docs/         — limitations, triage, eval patterns, context intake, and run guidance
 harnesses/    — public-safe template harnesses
 examples/     — synthetic worked examples
 ```
