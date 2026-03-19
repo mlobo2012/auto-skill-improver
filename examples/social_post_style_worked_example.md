@@ -1,7 +1,5 @@
 # Worked Example — Social Post Style Skill
 
-This example is synthetic and public-safe. It is designed to show the power of the method without leaking any private project information.
-
 ## Scenario
 A social-post skill strongly prefers long-form bullet posts, but users sometimes ask for short one-liners or reply-style posts. The skill does not define how to switch modes.
 

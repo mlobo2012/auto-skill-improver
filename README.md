@@ -109,8 +109,6 @@ Read `docs/LIMITATIONS.md` before treating any score as definitive.
 
 A binary eval can still be useless. The goal is not just yes/no questions — it is yes/no questions tied to task success.
 
-A nice dashboard is optional. A benchmark that actually distinguishes good from bad behavior is not.
-
 ---
 
 ## Repo Structure
